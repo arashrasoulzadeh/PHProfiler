@@ -1,0 +1,24 @@
+{
+    "name": "arashrasoulzadeh/phprofiler",
+    "description": "profile your php code",
+    "keywords": ["php", "profiler", "package"],
+    "license": "AML",
+    "authors": [
+        {
+            "name": "Arash Rasoulzadeh",
+            "email": "arashrasoulzadeh@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "arashrasoulzadeh\\phprofiler\\": "src/"
+        }
+    }
+}
